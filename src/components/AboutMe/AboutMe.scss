@@ -3,9 +3,13 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #343437;
+
+    .about-me-title{
+        margin-top: 5rem;
+    }
 
     .about-me-cntnt{
         width: 100%;
@@ -22,7 +26,7 @@
         }
 
         .about-me-txt{
-            width: 40%;
+            width: 50%;
             display: flex;
             justify-content: center;
             align-items: center;

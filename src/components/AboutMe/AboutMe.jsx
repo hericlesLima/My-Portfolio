@@ -1,15 +1,17 @@
 import React from "react";
 import Title from "../Title/Title";
-import FrontPhoto from "../../assets/FrontPhoto.png"
-import "../AboutMe/AboutMe.scss"
+import FrontPhoto from "../../assets/FrontPhoto.png";
+import "../AboutMe/AboutMe.scss";
 
 export function AboutMe() {
   return (
     <div className="about-me">
-      <Title title="About me" />
+      <div className="about-me-title">
+        <Title title="About me"/>
+      </div>
       <div className="about-me-cntnt">
         <div className="about-me-img">
-            <img src={FrontPhoto} alt="photo"/>
+          <img src={FrontPhoto} alt="photo" />
         </div>
         <div className="about-me-txt">
           I'm 22 years old, I came to Praia at the age of 19 to study Computer
