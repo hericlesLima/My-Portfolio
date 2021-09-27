@@ -13,7 +13,6 @@ p, a {
   padding: 1rem 0 1rem 0;
   color: #d7d7d9;
   background-color: #0378a6;
-  font-family: "Space Mono", monospace;
 }
 
 .separator {
@@ -26,7 +25,6 @@ p, a {
 
 .footer-link {
   color: #d7d7d9;
-  font-family: "Space Mono", monospace;
   text-decoration: none;
 }
 
