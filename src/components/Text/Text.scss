@@ -1,0 +1,17 @@
+.education-txt-cntnt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .education-txt {
+    width: 80%;
+    color: #d7d7d9;
+
+    .paragraph {
+      text-decoration: none;
+      font-style: normal;
+      color: #0378a6;
+    }
+  }
+}
