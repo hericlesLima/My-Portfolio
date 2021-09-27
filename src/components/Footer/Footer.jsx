@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-content">
         <div className="footer-details">
-          <p className="footer-title">Socials</p>
+          <p className="footer-title">Social</p>
           <a href="https://www.facebook.com/lmntor/" target="_blank" className="footer-link">Facebook</a>
           <a href="https://www.linkedin.com/in/hericles-lima/" target="_blank" className="footer-link">Linkedin</a>
         </div>
