@@ -1,9 +1,15 @@
 import React from "react";
-import Title from "../Title/Title";
-import FrontPhoto from "../../assets/FrontPhoto.png";
+
+//CSS
 import "../AboutMe/AboutMe.scss";
 
-export function AboutMe() {
+//Components
+import Title from "../Title/Title";
+
+//Images
+import FrontPhoto from "../../assets/FrontPhoto.png";
+
+export default function AboutMe() {
   return (
     <div className="about-me">
       <div id="about-me"></div>

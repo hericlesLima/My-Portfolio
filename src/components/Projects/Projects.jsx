@@ -1,6 +1,10 @@
 import React from "react";
-import Card from "../Card/Card";
+
+//CSS
 import "../Projects/Projects.scss";
+
+//Components
+import Card from "../Card/Card";
 import Title from "../Title/Title";
 
 export default function Projects() {

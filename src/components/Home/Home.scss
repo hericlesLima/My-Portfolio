@@ -23,8 +23,7 @@
         padding-bottom: 7px;
       }
 
-      a:active{
-        
+      a:active {
         border-bottom: solid 4px #d7d7d9;
       }
     }
@@ -34,7 +33,6 @@
     display: flex;
     flex-direction: row;
     padding-top: 5rem;
-    
 
     .home-txt {
       width: 60%;
@@ -45,7 +43,7 @@
       align-items: center;
       color: #d7d7d9;
 
-      .Typewriter{
+      .Typewriter {
         height: 14rem;
       }
 
@@ -83,6 +81,10 @@
         color: #d7d7d9;
         font-weight: 600;
       }
+      a:hover {
+        color: #242426;
+        background-color: #d7d7d9;
+      }
     }
 
     .home-img {
@@ -94,3 +96,4 @@
     }
   }
 }
+

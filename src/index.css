@@ -5,4 +5,11 @@
   font-family: "Space Mono", monospace;
 }
 
+.transition {
+  transition-property: color background-color font-size;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+}
+
 

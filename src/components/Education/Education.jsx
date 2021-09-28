@@ -1,5 +1,9 @@
 import React from "react";
+
+//CSS
 import "../Education/Education.scss";
+
+//Components
 import Text from "../Text/Text";
 import Title from "../Title/Title";
 
