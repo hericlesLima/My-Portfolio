@@ -4,6 +4,7 @@ import "../Footer/Footer.scss";
 export default function Footer() {
   return (
     <div className="footer">
+      <div id="footer"></div>
       <div className="footer-content">
         <div className="footer-details">
           <p className="footer-title">Social</p>

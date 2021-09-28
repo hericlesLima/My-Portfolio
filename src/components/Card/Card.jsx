@@ -13,8 +13,8 @@ export default function Card(props) {
         </p>
       </div>
       <div className="card-btn">
-        <a href={props.gtbLink} target="_blank">Github</a>
-        <a href={props.link} target="_blank">Link</a>
+        <a href={props.gtbLink} title={props.gtbMsg} target="_blank">Github</a>
+        <a href={props.link} title={props.linkMsg} target="_blank">Link</a>
       </div>
     </div>
   );

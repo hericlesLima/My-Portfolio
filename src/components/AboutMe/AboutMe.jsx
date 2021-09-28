@@ -6,6 +6,7 @@ import "../AboutMe/AboutMe.scss";
 export function AboutMe() {
   return (
     <div className="about-me">
+      <div id="about-me"></div>
       <div className="about-me-title">
         <Title title="About me"/>
       </div>
