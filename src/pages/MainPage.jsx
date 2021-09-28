@@ -4,6 +4,7 @@ import Card from "../components/Card/Card";
 import Education from "../components/Education/Education";
 import Footer from "../components/Footer/Footer";
 import Home from "../components/Home/Home";
+import Projects from "../components/Projects/Projects";
 import Text from "../components/Text/Text";
 
 export default function MainPage() {
@@ -16,7 +17,7 @@ export default function MainPage() {
         link="https://github.com/hericlesLima"
       />
       <Footer/>*/}
-      <Home/>
+      <Projects/>
     </div>
   );
 }
