@@ -20,19 +20,21 @@ export default function Techs() {
   return (
     <div className="techs-cntnt">
       <Title title="Tools &amp; Technologies" />
-      <div className="icons-row-1">
-        <img src={JavascriptIcon} className="tech-icon" alt="javascript" />
-        <img src={ReactIcon} className="tech-icon" alt="react" />
-        <img src={NodeIcon} className="tech-icon" alt="node" />
-        <img src={SqlIcon} className="tech-icon" alt="sql" />
-        <img src={NpmIcon} className="tech-icon" alt="npm" />
-      </div>
-      <div className="icons-row-2">
-        <img src={FigmaIcon} className="tech-icon" alt="figma" />
-        <img src={MaterialIcon} className="tech-icon" alt="react" />
-        <img src={WordpressIcon} className="tech-icon" alt="wordpress" />
-        <img src={GitIcon} className="tech-icon" alt="git" />
-        <img src={AgileIcon} className="tech-icon" alt="agile" />
+      <div className="icons">
+        <div className="icons-row-1">
+          <img src={JavascriptIcon} className="tech-icon" alt="javascript" />
+          <img src={ReactIcon} className="tech-icon" alt="react" />
+          <img src={NodeIcon} className="tech-icon" alt="node" />
+          <img src={SqlIcon} className="tech-icon" alt="sql" />
+          <img src={NpmIcon} className="tech-icon" alt="npm" />
+        </div>
+        <div className="icons-row-2">
+          <img src={FigmaIcon} className="tech-icon" alt="figma" />
+          <img src={MaterialIcon} className="tech-icon" alt="react" />
+          <img src={WordpressIcon} className="tech-icon" alt="wordpress" />
+          <img src={GitIcon} className="tech-icon" alt="git" />
+          <img src={AgileIcon} className="tech-icon" alt="agile" />
+        </div>
       </div>
     </div>
   );
