@@ -19,7 +19,7 @@ import Title from "../Title/Title";
 export default function Techs() {
   return (
     <div className="techs-cntnt">
-      <Title title="Tools, Technologies &amp; Metholodologies" />
+      <Title title="Tools &amp; Technologies" />
       <div className="icons-row-1">
         <img src={JavascriptIcon} className="tech-icon" alt="javascript" />
         <img src={ReactIcon} className="tech-icon" alt="react" />

@@ -28,3 +28,19 @@
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+    .tech-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+    .techs-cntnt{
+        .icons-row-1{
+            width: 20%;
+        }
+
+        .icons-row-2{
+            width: 20%;
+        }
+    }
+}

@@ -97,3 +97,44 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .home {
+    ul{
+      display: none;
+    }
+    .home-cntnt {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .home-txt{
+        order: 2;
+        width: 100%;
+        height: 54vh;
+        justify-content: center;
+
+        .Typewriter{
+          height: 10rem;
+        }
+
+        .Typewriter__wrapper{
+          font-size: 2rem;
+        }
+
+        .Typewriter__cursor{
+          font-size: 2rem;
+        }
+      }
+      .home-img{
+        order: 1;
+        width: 100%;
+        padding-top: 2rem;
+
+        img{
+          width: 10rem;
+          height: 10rem;
+        }
+      }
+    }
+  }
+}

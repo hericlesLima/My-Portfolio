@@ -26,7 +26,7 @@ export default function Footer() {
           <p>+238 977 68 95</p>
         </div>
       </div>
-      <div className="copyright footer-title">
+      <div className="copyright">
         <p>Copyright @ 2021 | Powered by: Héricles Recheado</p>
       </div>
     </div>

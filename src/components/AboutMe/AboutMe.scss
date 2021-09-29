@@ -35,3 +35,23 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .about-me{
+        .about-me-cntnt{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+
+            .about-me-img, img{
+                width: 50%;
+            }
+
+            .about-me-txt{
+                width: 70%;
+                margin-top: 2rem;
+            }
+        }
+    }
+}

@@ -14,7 +14,7 @@ export default function AboutMe() {
     <div className="about-me">
       <div id="about-me"></div>
       <div className="about-me-title">
-        <Title title="About me"/>
+        <Title title="About me" />
       </div>
       <div className="about-me-cntnt">
         <div className="about-me-img">
