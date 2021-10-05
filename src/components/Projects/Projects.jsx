@@ -38,20 +38,20 @@ export default function Projects() {
       <div className="projects-row-2">
         <Card
           title="Calculator"
-          text="This project was developed through a COD3R CURSOS course with 6 modules where we developed the interface and then applied the logic behind the calculator."
+          text="This project was developed through a COD3R CURSOS course with 6 modules where we developed the interface and then applied the logic behind the calculator program."
           gtbLink="https://github.com/hericlesLima/React-Calculator"
           link="https://hericlescalculator.netlify.app/"
         />
         <Card
           title="To-Do List"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh."
+          text="This project was developed through a COD3R CURSOS course where we developed the interface and then applied the logic behind the To-Do-List program."
           gtbLink="https://github.com/hericlesLima/React-To-Do-List"
           link=" "
           linkMsg="This project, hasn't been deployed yet."
         />
         <Card
           title="Notes"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh."
+          text="This project was developed through a NETNINJA course where we developed the interface and then applied the logic behind the notes program."
           gtbLink="https://github.com/hericlesLima/Notes"
           link=" "
           linkMsg="This project, hasn't been deployed yet."

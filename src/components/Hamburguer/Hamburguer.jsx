@@ -5,16 +5,16 @@ export default function Hamburguer() {
     <div>
       <ul className="menu1">
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">&lt; Home / &gt;</a>
         </li>
         <li>
-          <a href="#about-me">About me</a>
+          <a href="#about-me">&lt; About me / &gt;</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">&lt; Projects / &gt;</a>
         </li>
         <li>
-          <a href="#footer">Contacts</a>
+          <a href="#footer">&lt; Contacts / &gt;</a>
         </li>
       </ul>
 
@@ -28,16 +28,16 @@ export default function Hamburguer() {
 
           <ul id="menu">
             <a href="#home">
-              <li>Home</li>
+              <li>&lt; Home / &gt;</li>
             </a>
             <a href="#about-me">
-              <li>About me</li>
+              <li>&lt; About me / &gt;</li>
             </a>
             <a href="#projects">
-              <li>Projects</li>
+              <li>&lt; Projects / &gt;</li>
             </a>
             <a href="#footer">
-              <li>Contact</li>
+              <li>&lt; Contacts / &gt;</li>
             </a>
           </ul>
         </div>

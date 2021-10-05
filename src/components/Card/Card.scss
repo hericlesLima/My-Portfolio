@@ -11,9 +11,17 @@
   margin: 2rem 2rem;
   overflow: hidden;
 
-  .card-title{
-      font-size: 1.2rem;
-      margin: 1rem 1rem 0 1rem;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    margin: 1rem 1rem 0 1rem;
+    align-self: center;
   }
 
   .card-txt {
@@ -27,21 +35,26 @@
     justify-content: center;
     align-items: center;
 
+    .fa-github, .fa-external-link-alt {
+      position: relative;
+      top: 4px;
+      margin: 0 0 0 0.4rem;
+    }
+
     a {
       display: flex;
       justify-content: center;
-      width: 14rem;
+      width: 13rem;
       padding: 5px 10px;
-      margin-top: 0;
-      margin-bottom: 10px;
-      border: 3px solid var(--second-color);
+      margin: 0 1rem 1rem 1rem;
+      border: 2px solid var(--second-color);
       border-radius: 10px;
       text-decoration: none;
       color: var(--second-color);
       font-weight: 600;
     }
 
-    a:hover{
+    a:hover {
       color: var(--bg-color);
       background-color: var(--second-color);
     }
