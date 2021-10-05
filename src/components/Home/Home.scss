@@ -203,6 +203,17 @@
         height: 54vh;
         justify-content: center;
 
+        .typewriter-effect{
+          .name{
+            font-size: 2rem;
+            
+          }
+          
+          .ocupation{
+            font-size: 1rem;
+          }
+        }
+
         .Typewriter {
           height: 10rem;
         }
@@ -214,11 +225,25 @@
         .Typewriter__cursor {
           font-size: 2rem;
         }
+
+        a {
+          display: flex;
+          justify-content: center;
+          width: 14rem;
+          padding: 8px 8px;
+          margin-top: 0;
+          margin-bottom: 20px;
+          border: 2px solid var(--second-color);
+          border-radius: 10px;
+          text-decoration: none;
+          color: var(--second-color);
+          font-weight: 600;
+        }
       }
       .home-img {
         order: 1;
         width: 100%;
-        padding-top: 2rem;
+    
 
         img {
           width: 10rem;
