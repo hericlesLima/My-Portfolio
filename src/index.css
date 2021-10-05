@@ -5,6 +5,15 @@
   font-family: "Space Mono", monospace;
 }
 
+:root {
+  --first-color:  #0378a6;
+  --second-color: #d7d7d9;
+  --bg-color: #242426;
+  --about-bg-color: #343437;
+}
+
+
+
 .transition {
   transition-property: color background-color font-size;
   transition-duration: 1s;

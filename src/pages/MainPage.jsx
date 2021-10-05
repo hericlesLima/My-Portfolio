@@ -10,10 +10,12 @@ import Footer from "../components/Footer/Footer";
 import Home from "../components/Home/Home";
 import Projects from "../components/Projects/Projects";
 import Techs from "../components/Techs/Techs";
+import Hamburguer from "../components/Hamburguer/Hamburguer";
 
 export default function MainPage() {
   return (
     <div>
+      <Hamburguer/>
       <Home/>
       <AboutMe/>
       <Education/>

@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="home">
       <div id="home"></div>
-      <ul>
+      {/*<ul>
         <li>
           <a href="#home">Home</a>
         </li>
@@ -32,7 +32,7 @@ export default function Home() {
         <li>
           <a href="#footer">Contacts</a>
         </li>
-      </ul>
+      </ul>*/}
       <div className="home-cntnt">
         <div className="home-txt">
           <div className="typewriter-effect">

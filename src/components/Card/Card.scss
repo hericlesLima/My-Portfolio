@@ -1,12 +1,12 @@
 .card {
   width: 16rem;
   min-height: 10rem;
-  border: 3px solid #d7d7d9;
+  border: 3px solid var(--second-color);
   border-radius: 10px;
-  color: #d7d7d9;
+  color: var(--second-color);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 2rem 2rem;
   overflow: hidden;
@@ -17,7 +17,7 @@
   }
 
   .card-txt {
-    text-align: justify;
+    text-align: left;
     margin: 20px 20px;
   }
 
@@ -34,16 +34,16 @@
       padding: 5px 10px;
       margin-top: 0;
       margin-bottom: 10px;
-      border: 3px solid #d7d7d9;
+      border: 3px solid var(--second-color);
       border-radius: 10px;
       text-decoration: none;
-      color: #d7d7d9;
+      color: var(--second-color);
       font-weight: 600;
     }
 
     a:hover{
-      color: #242426;
-      background-color: #d7d7d9;
+      color: var(--bg-color);
+      background-color: var(--second-color);
     }
   }
 }

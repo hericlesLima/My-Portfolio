@@ -21,11 +21,17 @@ export default function AboutMe() {
           <img src={FrontPhoto} alt="photo" />
         </div>
         <div className="about-me-txt">
-          I'm 22 years old, I came to Praia at the age of 19 to study Computer
-          Engineering, I couldn't do it, I left school and entered the job
-          market as an electrician, now that I have finished my bootcamp at the
-          Academia de Código I'm looking for an opportunity to show my skills
-          and knowledge in the IT market.
+          <p>
+            I'm 22 years old, I came to Praia at the age of 19 to study Computer
+            Engineering, I couldn't do it, I left school and entered the job
+            market as an electrician, I continued my studies in the area of
+            ​​programming, I entered a bootcamp at the{" "}
+            <a href="https://www.academiadecodigo.org/">
+              &lt;Academia_de_Código_&gt;
+            </a>
+            , I had a boost in my skills and I was able to reach the level I
+            think is necessary for the job market..
+          </p>
         </div>
       </div>
     </div>

@@ -11,8 +11,8 @@ p, a {
 .footer {
   width: 100%;
   padding: 1rem 0 1rem 0;
-  color: #d7d7d9;
-  background-color: #0378a6;
+  color: var(--second-color);
+  background-color: var(--first-color);
 
   .footer-content {
     width: 100%;
@@ -37,15 +37,15 @@ p, a {
     }
 
     .footer-link {
-      color: #d7d7d9;
+      color: var(--second-color);
       text-decoration: none;
     }
 
     .separator {
-      width: 5px;
+      width: 2px;
       height: 100px;
       border-radius: 15px;
-      background-color: #d7d7d9;
+      background-color: var(--second-color);
       margin-top: 55px;
     }
   }
@@ -74,9 +74,16 @@ p, a {
       margin-top: 1rem;
     }
 
+    
     .copyright{
       align-items: center;
-      font-size: 8px;
+      font-size: 10px;
+      p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
     }
 
     .separator{

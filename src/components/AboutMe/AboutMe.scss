@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #343437;
+  background-color: var(--about-bg-color);
 
   .about-me-title {
     margin-top: 5rem;
@@ -31,7 +31,14 @@
       justify-content: center;
       align-items: center;
       text-align: left;
-      color: #d7d7d9;
+      color: var(--second-color);
+
+      a{
+       
+        text-decoration: none;
+        color: var(--first-color);
+        font-weight: 600;
+      }
     }
   }
 }
@@ -52,7 +59,8 @@
       }
 
       .about-me-txt {
-        width: 70%;
+        width: 80%;
+        text-align: justify;
         margin-top: 2rem;
       }
     }

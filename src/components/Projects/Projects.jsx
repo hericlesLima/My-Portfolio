@@ -15,21 +15,21 @@ export default function Projects() {
       <div className="projects-row-1">
         <Card
           title="AC-Defender"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh."
+          text="My first game development experience, this game was developed in two weeks at <Academia de Codigo_> using the SimpleGraffics library, that's an internal library."
           gtbLink=" "
           link=" "
           linkMsg="This project, hasn't been deployed yet."
         />
         <Card
           title="Kriol Campus"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh."
+          text="Platform for registering in programming classes and other technologies."
           gtbLink=" "
           gtbMsg="This is a private repository, you cannot access it"
           link="http://krioltechcampus.com"
-       />
+        />
         <Card
           title="K-Mindz"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh."
+          text="Small information and contact site."
           gtbLink=" "
           gtbMsg="This is a private repository, you cannot access it"
           link="http://kmindzdigitalagency.com/"
@@ -38,7 +38,7 @@ export default function Projects() {
       <div className="projects-row-2">
         <Card
           title="Calculator"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec eleifend nibh."
+          text="This project was developed through a COD3R CURSOS course with 6 modules where we developed the interface and then applied the logic behind the calculator."
           gtbLink="https://github.com/hericlesLima/React-Calculator"
           link="https://hericlescalculator.netlify.app/"
         />

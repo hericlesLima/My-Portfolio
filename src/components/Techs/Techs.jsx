@@ -10,11 +10,14 @@ import NodeIcon from "../../assets/icons/node.png";
 import MaterialIcon from "../../assets/icons/material_ui.png";
 import NpmIcon from "../../assets/icons/npm.png";
 import ReactIcon from "../../assets/icons/react.png";
-import SqlIcon from "../../assets/icons/mysql.png";
+import JavaIcon from "../../assets/icons/java.png";
 import WordpressIcon from "../../assets/icons/wordpress.png";
 import GitIcon from "../../assets/icons/git.png";
 import AgileIcon from "../../assets/icons/agile.png";
+import HtmlIcon from "../../assets/icons/html.png";
+import CssIcon from "../../assets/icons/css.png";
 import Title from "../Title/Title";
+import Icon from "../Icon/Icon";
 
 export default function Techs() {
   return (
@@ -22,18 +25,68 @@ export default function Techs() {
       <Title title="Tools &amp; Technologies" />
       <div className="icons">
         <div className="icons-row-1">
-          <img src={JavascriptIcon} className="tech-icon" alt="javascript" />
-          <img src={ReactIcon} className="tech-icon" alt="react" />
-          <img src={NodeIcon} className="tech-icon" alt="node" />
-          <img src={SqlIcon} className="tech-icon" alt="sql" />
-          <img src={NpmIcon} className="tech-icon" alt="npm" />
+          <Icon
+            href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+            src={HtmlIcon}
+            alt="html"
+          />
+          <Icon
+            href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+            src={JavascriptIcon}
+            alt="javascript"
+          />
+          <Icon
+            href="https://nodejs.org/en/about/"
+            src={NodeIcon}
+            alt="node"
+          />
+          <Icon
+            href="https://docs.oracle.com/en/java/"
+            src={JavaIcon}
+            alt="java"
+          />
+          <Icon
+            href="https://www.figma.com/about/"
+            src={FigmaIcon}
+            alt="figma"
+          />
+          <Icon
+            href="https://git-scm.com/"
+            src={GitIcon}
+            alt="git"
+          />
         </div>
         <div className="icons-row-2">
-          <img src={FigmaIcon} className="tech-icon" alt="figma" />
-          <img src={MaterialIcon} className="tech-icon" alt="react" />
-          <img src={WordpressIcon} className="tech-icon" alt="wordpress" />
-          <img src={GitIcon} className="tech-icon" alt="git" />
-          <img src={AgileIcon} className="tech-icon" alt="agile" />
+          <Icon
+            href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+            src={CssIcon}
+            alt="css"
+          />
+          <Icon
+            href="https://reactjs.org/"
+            src={ReactIcon}
+            alt="react"
+          />
+          <Icon
+            href="https://docs.npmjs.com/about-npm"
+            src={NpmIcon}
+            alt="npm"
+          />
+          <Icon
+            href="https://wordpress.org/"
+            src={WordpressIcon}
+            alt="wordpress"
+          />
+          <Icon
+            href="https://mui.com/pt/"
+            src={MaterialIcon}
+            alt="material-ui"
+          />
+          <Icon
+            href="https://agilemanifesto.org/"
+            src={AgileIcon}
+            alt="agile"
+          />
         </div>
       </div>
     </div>
