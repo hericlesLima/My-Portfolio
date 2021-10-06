@@ -35,7 +35,8 @@
     justify-content: center;
     align-items: center;
 
-    .fa-github, .fa-external-link-alt {
+    .fa-github,
+    .fa-external-link-alt {
       position: relative;
       top: 4px;
       margin: 0 0 0 0.4rem;
@@ -57,6 +58,16 @@
     a:hover {
       color: var(--bg-color);
       background-color: var(--second-color);
+    }
+
+    .link {
+      color: var(--bg-color);
+      background-color: var(--second-color);
+    }
+
+    .link:hover{
+      color: var(--second-color);
+      background-color: var(--bg-color);
     }
   }
 }

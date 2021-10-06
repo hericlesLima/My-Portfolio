@@ -7,7 +7,7 @@ import "../AboutMe/AboutMe.scss";
 import Title from "../Title/Title";
 
 //Images
-import FrontPhoto from "../../assets/FrontPhoto.png";
+import FrontPhoto from "../../assets/idCard.png";
 
 export default function AboutMe() {
   return (

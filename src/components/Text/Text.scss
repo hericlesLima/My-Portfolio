@@ -5,8 +5,9 @@
   align-items: center;
 
   .education-txt {
-    width: 80%;
-    color: #d7d7d9;
+    width: 65%;
+    color: var(--second-color);
+    text-align: justify;
 
     .paragraph {
       text-decoration: none;
