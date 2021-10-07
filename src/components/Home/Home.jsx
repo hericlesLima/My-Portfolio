@@ -10,8 +10,8 @@ import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Bounce from "react-reveal/Bounce";
 import Wobble from "react-reveal/Wobble";
-import RubberBand from 'react-reveal/RubberBand';
-import Tada from 'react-reveal/Tada';
+import RubberBand from "react-reveal/RubberBand";
+import Tada from "react-reveal/Tada";
 
 //Components
 import FrontPhoto from "../../assets/FrontPhoto.png";
@@ -105,7 +105,9 @@ export default function Home() {
           </div>
         </div>
         <div className="home-img">
-          <img src={FrontPhoto} alt="photo" />
+          <div>
+            <img src={FrontPhoto} alt="photo" />
+          </div>
         </div>
       </div>
       <a href="#about-me" class="container">

@@ -25,7 +25,7 @@ export default function Projects() {
           text="Platform for registering in programming classes and other technologies."
           gtbLink=" "
           gtbMsg="This is a private repository, you cannot access it"
-          link="http://krioltechcampus.com"
+          link="https://www.krioltechcampus.com/about"
         />
         <Card
           title="K-Mindz"
