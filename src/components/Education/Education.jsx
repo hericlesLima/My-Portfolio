@@ -27,6 +27,11 @@ export default function Education() {
             in the labor market. It was an immersed experience
             that made me closer to new technologies."
       />
+
+      <Text
+        paragraph="Youtube, documentation and E-Learning platforms"
+        text="Many hours spent watching videos on Youtube and E-Learning platforms, reading the documentations, acquiring and putting into practice as much knowledge as possible"
+      />
     </div>
   );
 }

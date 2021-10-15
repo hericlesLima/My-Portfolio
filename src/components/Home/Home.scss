@@ -193,6 +193,12 @@
 
 @media only screen and (max-width: 768px) {
   .home {
+    height: auto;
+    padding-bottom: 3rem;
+
+    .container{
+      bottom: 1.9rem;
+    }
     ul {
       display: none;
     }
