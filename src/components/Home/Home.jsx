@@ -14,12 +14,12 @@ import RubberBand from "react-reveal/RubberBand";
 import Tada from "react-reveal/Tada";
 
 //Components
-import FrontPhoto from "../../assets/FrontPhoto.png";
 
 //Ressources
 import Curriculum from "../../ressources/CurriculumVitae.pdf";
 
 //Images
+import FrontPhoto from "../../assets/FrontPhoto.png";
 import Divider from "../../assets/divider.svg";
 import Scroll from "../../assets/mouseScrool.png";
 
