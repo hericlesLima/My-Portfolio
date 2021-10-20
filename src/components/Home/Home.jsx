@@ -22,6 +22,7 @@ import Curriculum from "../../ressources/CurriculumVitae.pdf";
 import FrontPhoto from "../../assets/FrontPhoto.png";
 import Divider from "../../assets/divider.svg";
 import Scroll from "../../assets/mouseScrool.png";
+import ScrollDown from "../ScroolDown/ScrollDown";
 
 const customStyles = {
   content: {
@@ -110,11 +111,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <a href="#about-me" class="container">
-        <div class="chevron"></div>
-        <div class="chevron"></div>
-        <div class="chevron"></div>
-      </a>
+      <ScrollDown />
     </div>
   );
 }

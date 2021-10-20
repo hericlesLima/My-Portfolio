@@ -12,6 +12,7 @@
     "react-modal": "^3.14.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
+    "react-splash": "^0.1.0",
     "typewriter": "^7.4.1",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^1.1.2"
