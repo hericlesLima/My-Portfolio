@@ -12,6 +12,8 @@ import Bounce from "react-reveal/Bounce";
 import Wobble from "react-reveal/Wobble";
 import RubberBand from "react-reveal/RubberBand";
 import Tada from "react-reveal/Tada";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 //Components
 
@@ -38,7 +40,6 @@ const customStyles = {
 Modal.setAppElement("#root");
 
 export default function Home() {
-  let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   function openModal() {
@@ -49,23 +50,20 @@ export default function Home() {
     setIsOpen(false);
   }
 
+  const notify = () =>
+    toast.success("Successful download", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+
   return (
     <div className="home">
       <div id="home"></div>
-      {/*<ul>
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about-me">About me</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#footer">Contacts</a>
-        </li>
-      </ul>*/}
       <div className="home-cntnt">
         <div className="home-txt">
           <div className="typewriter-effect">
@@ -79,12 +77,13 @@ export default function Home() {
               href={Curriculum}
               download="CurriculumVitae.pdf"
               className="transition"
-              onClick={openModal}
+              onClick={notify}
             >
               Curriculum Vitae
             </a>
+            <ToastContainer />
 
-            <div className="cv-modal">
+            {/* <div className="cv-modal">
               <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
@@ -94,7 +93,8 @@ export default function Home() {
                 <div>File downloaded sucessfull.</div>
                 <button onClick={closeModal}>Close</button>
               </Modal>
-            </div>
+              
+            </div> */}
 
             <a
               href="https://github.com/hericlesLima"

@@ -21,4 +21,23 @@
   transition-timing-function: linear;
 }
 
+body::-webkit-scrollbar{
+  width: 0.8rem;
+}
+
+/*fundo da barra*/
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+/*indicador de altura da pagina*/
+
+::-webkit-scrollbar-thumb{
+  background: var(--first-color);
+  border-radius: 5px;
+}
+
+
+
 
