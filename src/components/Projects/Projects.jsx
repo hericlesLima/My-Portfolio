@@ -12,7 +12,7 @@ export default function Projects() {
     <div className="projects-cntnt">
       <div id="projects"></div>
       <Title title="Projects" />
-      <div className="projects-row-1">
+      <div className="projects-row">
         <Card
           title="AC-Defender"
           text="My first game development experience, this game was developed in two weeks at <Academia de Codigo_> using the SimpleGraffics library, that's an internal library."
@@ -35,7 +35,7 @@ export default function Projects() {
           link="http://kmindzdigitalagency.com/"
         />
       </div>
-      <div className="projects-row-2">
+      <div className="projects-row">
         <Card
           title="Calculator"
           text="This project was developed through a COD3R CURSOS course with 6 modules where we developed the interface and then applied the logic behind the calculator program."
@@ -55,6 +55,15 @@ export default function Projects() {
           gtbLink="https://github.com/hericlesLima/Notes"
           link=" "
           linkMsg="This project, hasn't been deployed yet."
+        />
+      </div>
+      <div className="projects-row">
+        <Card
+          title="Design and Logos"
+          text="My design projects, developed using Figma and Adobe Illustrator."
+          gtbLink="https://github.com/hericlesLima/Designs-and-Logos"
+          link="/gallery"
+          linkMsg="No deploy to this project."
         />
       </div>
     </div>

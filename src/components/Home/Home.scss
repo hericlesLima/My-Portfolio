@@ -7,6 +7,12 @@
   justify-content: flex-start;
   align-items: center;
 
+  .menu{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+
   .home-cntnt {
     width: 100%;
     display: flex;
@@ -14,7 +20,6 @@
 
     .home-txt {
       width: 50%;
-      height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: center;

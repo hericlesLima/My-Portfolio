@@ -16,6 +16,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 //Components
+import Hamburguer from "../Hamburguer/Hamburguer";
 
 //Ressources
 import Curriculum from "../../ressources/CurriculumVitae.pdf";
@@ -50,7 +51,7 @@ export default function Home() {
     setIsOpen(false);
   }
 
-  const notify = () =>
+  const notifyDownload = () =>
     toast.success("Successful download", {
       position: "top-right",
       autoClose: 5000,
@@ -63,6 +64,9 @@ export default function Home() {
 
   return (
     <div className="home">
+      <div className="menu">
+        <Hamburguer />
+      </div>
       <div id="home"></div>
       <div className="home-cntnt">
         <div className="home-txt">
@@ -77,7 +81,7 @@ export default function Home() {
               href={Curriculum}
               download="CurriculumVitae.pdf"
               className="transition"
-              onClick={notify}
+              onClick={notifyDownload}
             >
               Curriculum Vitae
             </a>
@@ -111,7 +115,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <ScrollDown />
+      <div className="scroll-down">
+        <ScrollDown />
+      </div>
     </div>
   );
 }

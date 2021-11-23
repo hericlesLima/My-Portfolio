@@ -25,7 +25,7 @@ export default function Card(props) {
           target="_blank"
           className="transition link"
         >
-          Link{" "}
+          Link
         </a>
       </div>
     </div>
