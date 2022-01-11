@@ -1,5 +1,13 @@
 $base: 0.6rem;
 
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
 .chevron {
     position: absolute;
     width: $base * 3.5;

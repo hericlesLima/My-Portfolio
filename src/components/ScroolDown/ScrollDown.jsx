@@ -4,8 +4,8 @@ import "../ScroolDown/ScrollDown.scss"
 
 export default function ScrollDown() {
   return (
-    <div>
-      <a href="#about-me" class="container">
+    <div className="container">
+      <a href="#about-me">
         <div class="chevron"></div>
         <div class="chevron"></div>
         <div class="chevron"></div>

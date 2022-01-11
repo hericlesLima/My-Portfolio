@@ -71,10 +71,10 @@ export default function Home() {
       <div className="home-cntnt">
         <div className="home-txt">
           <div className="typewriter-effect">
-            <Bounce top big cascade>
+            <Zoom top big cascade>
               <h1 className="name">Héricles Lima</h1>
               <h1 className="ocupation">Junior Front-End Developer</h1>
-            </Bounce>
+            </Zoom>
           </div>
           <div>
             <a
