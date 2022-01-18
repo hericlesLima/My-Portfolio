@@ -6,23 +6,23 @@
 }
 
 :root {
-  --first-color:  #B68973;
+  --first-color:  #6D9886;
   --second-color: #FAF3E0;
-  --bg-color: #1E212D;
-  --about-bg-color: #2b2e3b;
+  --bg-color: #191919;
+  --about-bg-color: #6D9886;
 }
 
 
 
 .transition {
   transition-property: color background-color font-size;
-  transition-duration: 1s;
+  transition-duration: 0.6s;
   transition-delay: 0s;
   transition-timing-function: linear;
 }
 
 body::-webkit-scrollbar{
-  width: 0.8rem;
+  width: 0.3rem;
 }
 
 /*fundo da barra*/
@@ -35,7 +35,7 @@ body::-webkit-scrollbar{
 
 ::-webkit-scrollbar-thumb{
   background: var(--first-color);
-  border-radius: 5px;
+  
 }
 
 

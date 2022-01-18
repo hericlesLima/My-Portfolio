@@ -10,7 +10,7 @@ import Title from "../Title/Title";
 export default function Education() {
   return (
     <div className="education-cntnt">
-      <Title title="Education" />
+      <Title classname="title" title="Education" />
       <Text
         paragraph="University of Cape Vert"
         link="https://www.unicv.edu.cv/"

@@ -2,6 +2,12 @@ div {
   .title {
     color: var(--first-color);
     margin: 1rem;
+    // font-family: 'Teko', sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;
+  }
+
+  .title-black {
+    color: var(--bg-color);
   }
 }
 

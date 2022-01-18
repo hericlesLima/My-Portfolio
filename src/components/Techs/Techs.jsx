@@ -25,7 +25,7 @@ import Fade from "react-reveal/Fade";
 export default function Techs() {
   return (
     <div className="techs-cntnt">
-      <Title title="Tools &amp; Technologies" />
+      <Title classname="title" title="Tools &amp; Technologies" />
       <div className="icons">
         <div className="icons-row-1">
           <Fade>

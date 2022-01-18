@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <div className="projects-cntnt">
       <div id="projects"></div>
-      <Title title="Projects" />
+      <Title classname="title" title="Projects" />
       <div className="projects-row">
         <Card
           title="AC-Defender"
@@ -25,7 +25,7 @@ export default function Projects() {
           text="Platform for registering in programming classes and other technologies."
           gtbLink=" "
           gtbMsg="This is a private repository, you cannot access it"
-          link="https://www.krioltechcampus.com/about"
+          link="https://www.krioltechcampus.com/"
         />
         <Card
           title="K-Mindz"
@@ -40,7 +40,7 @@ export default function Projects() {
           title="Calculator"
           text="This project was developed through a COD3R CURSOS course with 6 modules where we developed the interface and then applied the logic behind the calculator program."
           gtbLink="https://github.com/hericlesLima/React-Calculator"
-          link="https://hericlescalculator.netlify.app/"
+          link="https://hericles-calculator.netlify.app/"
         />
         <Card
           title="To-Do List"

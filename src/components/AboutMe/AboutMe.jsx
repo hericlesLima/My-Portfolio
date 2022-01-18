@@ -13,7 +13,7 @@ export default function AboutMe() {
   return (
     <div className="about-me" id="about-me">
       <div className="about-me-title">
-        <Title title="About me" />
+        <Title classname="title title-black"title="About me" />
       </div>
       <div className="about-me-cntnt">
         <div className="about-me-img">

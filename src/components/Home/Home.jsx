@@ -26,6 +26,7 @@ import FrontPhoto from "../../assets/FrontPhoto.png";
 import Divider from "../../assets/divider.svg";
 import Scroll from "../../assets/mouseScrool.png";
 import ScrollDown from "../ScroolDown/ScrollDown";
+import Title from "../Title/Title";
 
 const customStyles = {
   content: {
@@ -76,7 +77,7 @@ export default function Home() {
               <h1 className="ocupation">Junior Front-End Developer</h1>
             </Zoom>
           </div>
-          <div>
+          <div className="home-btns">
             <a
               href={Curriculum}
               download="CurriculumVitae.pdf"
@@ -109,11 +110,11 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="home-img">
+        {/* <div className="home-img">
           <div>
             <img src={FrontPhoto} alt="photo" />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="scroll-down">
         <ScrollDown />
