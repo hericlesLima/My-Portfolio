@@ -59,6 +59,12 @@ export default function Projects() {
       </div>
       <div className="projects-row">
         <Card
+          title="Klima di Kabu Verdi"
+          text="My design projects, developed using Figma and Adobe Illustrator."
+          gtbLink="https://github.com/hericlesLima/Klima-Kabu-Verdi"
+          link="https://klima-kabu-verdi.netlify.app/"
+        />
+        <Card
           title="Design and Logos"
           text="My design projects, developed using Figma and Adobe Illustrator."
           gtbLink="https://github.com/hericlesLima/Designs-and-Logos"
